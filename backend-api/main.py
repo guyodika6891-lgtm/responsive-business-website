@@ -13,13 +13,12 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173", 
         "http://127.0.0.1:5173",
-        "https://guyodika6891-lgtm-responsive-business-website.onrender.com" # <-- YOUR FRONTEND URL
+        "https://business-frontend-zbs6.onrender.com" # <-- Put your REAL frontend URL here
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 app.include_router(services.router, prefix="/api/services", tags=["Services"])
 app.include_router(auth.router, prefix="/api/auth", tags=["Auth"])
 app.include_router(messages.router, prefix="/api/messages", tags=["Messages"])
