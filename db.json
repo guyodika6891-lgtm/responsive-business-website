@@ -1,0 +1,146 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Development",
+      "description": "Modern, responsive websites built with React and best practices.",
+      "icon": "💻",
+      "price": "From $999",
+      "prices": { "USD": "999.00", "EUR": "919.00", "GBP": "789.00", "OMR": "385.00" }
+    },
+    {
+      "id": "2",
+      "title": "UI/UX Design",
+      "description": "Beautiful, user-friendly interfaces that convert visitors into customers.",
+      "icon": "🎨",
+      "price": "From $499",
+      "prices": { "USD": "499.00", "EUR": "459.00", "GBP": "395.00", "OMR": "192.00" }
+    },
+    {
+      "id": "3",
+      "title": "SEO Optimization",
+      "description": "Rank higher on Google and grow your organic traffic.",
+      "icon": "📈",
+      "price": "From $299",
+      "prices": { "USD": "299.00", "EUR": "275.00", "GBP": "239.00", "OMR": "115.00" }
+    },
+    {
+      "id": "4",
+      "title": "Brand Strategy",
+      "category": "Strategy",
+      "description": "A clear point of view and a memorable story for your next chapter.",
+      "icon": "✷",
+      "price": "From $699",
+      "prices": { "USD": "699.00", "EUR": "645.00", "GBP": "559.00", "OMR": "269.00" },
+      "featured": false
+    }
+  ],
+  "products": [
+    {
+      "id": "planner",
+      "title": "Field Notes Planner",
+      "category": "Stationery",
+      "type": "physical",
+      "description": "A thoughtful paper planner for turning big ideas into doable next steps.",
+      "icon": "▤",
+      "prices": { "USD": "24.00", "EUR": "22.00", "GBP": "19.00", "OMR": "9.25" }
+    },
+    {
+      "id": "studio-mug",
+      "title": "Studio Ritual Mug",
+      "category": "Studio goods",
+      "type": "physical",
+      "description": "A durable everyday mug for the first coffee and the next good idea.",
+      "icon": "◒",
+      "prices": { "USD": "18.00", "EUR": "16.50", "GBP": "14.00", "OMR": "7.00" }
+    },
+    {
+      "id": "everyday-tote",
+      "title": "Everyday Canvas Tote",
+      "category": "Studio goods",
+      "type": "physical",
+      "description": "A reusable cotton tote for carrying notebooks, essentials, and fresh plans.",
+      "icon": "▱",
+      "prices": { "USD": "22.00", "EUR": "20.00", "GBP": "17.50", "OMR": "8.50" }
+    },
+    {
+      "id": "brand-workbook",
+      "title": "Brand Clarity Workbook",
+      "category": "Digital guides",
+      "type": "digital",
+      "description": "A guided workbook to help you find your message, audience, and next move.",
+      "icon": "✳",
+      "prices": { "USD": "29.00", "EUR": "27.00", "GBP": "23.00", "OMR": "11.25" }
+    },
+    {
+      "id": "launch-checklist",
+      "title": "Website Launch Checklist",
+      "category": "Digital guides",
+      "type": "digital",
+      "description": "A practical, step-by-step checklist for a calmer website launch.",
+      "icon": "✓",
+      "prices": { "USD": "15.00", "EUR": "14.00", "GBP": "12.00", "OMR": "5.75" }
+    },
+    {
+      "id": "site-template-kit",
+      "title": "Small Business Template Kit",
+      "category": "Templates",
+      "type": "digital",
+      "description": "A flexible starter kit of planning templates for your next business project.",
+      "icon": "▦",
+      "prices": { "USD": "49.00", "EUR": "45.00", "GBP": "39.00", "OMR": "19.00" }
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Why Every Business Needs a Website in 2026",
+      "excerpt": "A website is your digital storefront and the foundation of your online presence.",
+      "content": "A useful website gives customers a clear place to learn about your business and take the next step.",
+      "author": "Jane Doe",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "2",
+      "title": "10 Web Design Trends to Watch",
+      "excerpt": "From accessible layouts to thoughtful interactions, discover ideas shaping the web.",
+      "content": "Good design trends put people first, making digital experiences simpler, faster, and more welcoming.",
+      "author": "John Smith",
+      "date": "2026-10-15"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "role": "CEO, StartupX",
+      "message": "They transformed our online presence completely!",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "name": "Mark Lee",
+      "role": "Founder, ShopEasy",
+      "message": "Professional, fast, and reliable. Highly recommended.",
+      "rating": 5
+    }
+  ],
+  "messages": [],
+  "orders": [],
+  "users": [
+    {
+      "name": "guyo dika",
+      "email": "testuser@example.com",
+      "password": "guyo123",
+      "role": "customer",
+      "id": 1
+    },
+    {
+      "id": "0d2e2d36-391c-463d-8c79-a504c1d3780a",
+      "name": "guyo dika",
+      "email": "guyodika6891@gmail.com",
+      "role": "customer",
+      "active": true
+    }
+  ]
+}
