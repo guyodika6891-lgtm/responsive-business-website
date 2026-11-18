@@ -74,3 +74,32 @@ Do not use the JSON Server demo or demo accounts for real customers or productio
 orders. The sample admin/auth flows and local JSON Server are not production
 security. Configure Stripe, shipping, tax, delivery, and production-grade access
 controls before accepting live payments.
+# Responsive Business Website
+
+A full-stack business website with a React frontend and a FastAPI + PostgreSQL backend.
+
+## 🚀 Features
+- Fully responsive UI (Tailwind CSS)
+- Dynamic Services & Blog pages (fetching from REST API)
+- Contact Form saving to PostgreSQL database
+- JWT Authentication (Login/Register)
+- Admin Dashboard with full CRUD (Create, Read, Update, Delete) for Services and Blogs
+
+## 🛠️ Tech Stack
+**Frontend:** React, Vite, Tailwind CSS, Axios, React Router
+**Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL
+**Authentication:** JWT, bcrypt
+
+## 📂 Project Structure
+- `/business-website` — React frontend
+- `/backend-api` — FastAPI backend
+
+## ⚙️ How to Run Locally
+
+### Backend (FastAPI)
+```bash
+cd backend-api
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+uvicorn main:app --reload
