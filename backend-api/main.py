@@ -10,7 +10,11 @@ app = FastAPI(title="Business Website API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173",
+        "https://guyodika6891-lgtm-responsive-business-website.onrender.com" # <-- YOUR FRONTEND URL
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
